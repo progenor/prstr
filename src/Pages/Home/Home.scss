@@ -1,0 +1,49 @@
+.h_main {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+
+  .h_pillar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+
+    h1 {
+      color: rgb(210, 49, 49);
+    }
+    background-color: rgba(0, 0, 0, 0.478);
+
+    .l_form {
+      margin: 1rem;
+      padding: 1rem;
+      border-radius: 2rem;
+      background-color: rgba(39, 39, 171, 0.512);
+      width: fit-content;
+      height: fit-content;
+
+      .main_form {
+        display: flex;
+        flex-direction: column;
+
+        .label {
+          background-color: rgba(33, 33, 127, 0.512);
+          color: white;
+          padding: 10px;
+          padding-left: 2px;
+          border-radius: 0.5em;
+        }
+
+        .form_cont {
+          background-color: rgba(53, 53, 188, 0.512);
+        }
+      }
+    }
+  }
+}
